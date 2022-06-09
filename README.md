@@ -19,5 +19,5 @@ for extracting secret key you only need to pass *-s* flag.
 If you want to contribute to this project, you can fork this repository and make pull request.
 we will be happy to accept your contribution :heart_eyes: .
 
-#### Ferther Contacts
+#### Further Contacts
 For further information, you can contact me at my [email](sina.behnam.ac@gmail.com)
