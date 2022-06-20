@@ -75,7 +75,7 @@ def reconstruct_secret(shares,module=23):
 		for i, share_i in enumerate(shares):
 			xi, _ = share_i
 			if i != j:
-				d_f = (xi)/(xj-xi)
+				d_f = (xi)/(xi - xj)
 				prod *= d_f
 
 		prod *= yj
@@ -108,7 +108,9 @@ def argument_parser():
 if __name__ == '__main__':
 	args = argument_parser()
 	t, n = 4,6
-	S = [(1,3), (3,9), (4,13), (6,21)]
+	# S = [(1,3), (3,9), (4,13), (6,21)]
+
+	S = [(1,20), (2,19), (3,10), (4,12)]
 	if args.print:
 		print_reconstructor(S,args.share,args.fraction)
 	
