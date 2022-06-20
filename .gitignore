@@ -1,7 +1,6 @@
 *.zip
 *.png
 excercise3.py
-crt.py
 __init__.py
 __pycache__
 test.py
